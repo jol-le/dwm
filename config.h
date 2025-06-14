@@ -6,7 +6,7 @@
 #define BROWSER "firefox"
 
 /* appearance */
-static unsigned int borderpx  = 3;        /* border pixel of windows */
+static unsigned int borderpx  = 2;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static unsigned int gappih    = 10;       /* horiz inner gap between windows */
 static unsigned int gappiv    = 10;       /* vert inner gap between windows */
@@ -16,13 +16,17 @@ static int swallowfloating    = 0;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "monospace:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#770000";
-static char selbgcolor[]            = "#005577";
+
+static char *fonts[]          = { "monospace:size=24", "NotoColorEmoji:pixelsize=24:antialias=true:autohint=true"  };
+
+static char normbgcolor[]           = "#293241";
+static char normbordercolor[]       = "#3D5A80";
+static char normfgcolor[]           = "#E0FBFC";
+
+static char selfgcolor[]            = "#E0FBFC";
+static char selbordercolor[]        = "#EE6C4D";
+static char selbgcolor[]            = "#3D5A80";
+
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
